@@ -2,6 +2,9 @@
 
 Simple signal-based messaging using POSIX signals. Send messages between processes using SIGUSR1/USR2 with HDLC framing.
 
+Inspired by the YouTube video "[Stop Killing Processes! Make Ctrl+C Meow Instead… (with Signals)
+](https://www.youtube.com/watch?v=m6WXrC9Mxzo)"
+
 ## Quick Start
 
 **Terminal 1** (receiver):
@@ -35,6 +38,10 @@ python3 sender.py 12345 "Hello World"
 ```bash
 python3 tests.py
 ```
+
+## Dependencies
+
+None required, uses standard library. Built using Python 3.12.
 
 ## Notes
 
